@@ -1,0 +1,29 @@
+{
+  "name": "shoopingsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Berry461/ecommerce.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Berry461/ecommerce/issues"
+  },
+  "homepage": "https://github.com/Berry461/ecommerce#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express.js": "^1.0.0",
+    "nodemon": "^3.1.10",
+    "stripe": "^18.2.1"
+  }
+}
